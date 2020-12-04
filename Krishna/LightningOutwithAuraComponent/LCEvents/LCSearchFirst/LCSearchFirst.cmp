@@ -1,0 +1,7 @@
+<aura:component controller="AccountsController" implements="force:appHostable,force:hasRecordId,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,forceCommunity:availableForAllPageTypes" access="global">
+    <aura:registerEvent name="LCCommunication" type="c:LCCommunication"/>
+    
+    <div class="slds-p-around_medium">
+        <lightning:input type="text" name="searchKey" aura:id="searchKey" onchange="{!c.searchKeyChange}" placeholder="Search" />
+    </div>
+</aura:component>
