@@ -11,14 +11,7 @@
     filterData: function(component, event, helper){
         var searchacc = event.getParam("searchKeyword");
         helper.filterAccounts(component, event, helper,searchacc);
-	 /* var action = component.get("c.findByName");
-        action.setParams({
-            "searchKey": searchacc
-        });
-        action.setCallback(this, function(a) {
-            component.set("v.accounts", a.getReturnValue());
-        });
-        $A.enqueueAction(action);*/
+	 
      }
 
     
